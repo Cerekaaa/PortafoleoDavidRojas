@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0a0b" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="format-detection" content="telephone=yes" />
+  <title>David Rojas · Cereka — Productor Audiovisual</title>
+  <meta name="description" content="David Rojas (Cereka) — Productor audiovisual, editor de video, motion graphics y creador de contenido. Documentales, reels y postproducción en Bogotá." />
+
+  <!-- Open Graph para compartir en redes -->
+  <meta property="og:title" content="David Rojas · Cereka — Productor Audiovisual" />
+  <meta property="og:description" content="Productor audiovisual con experiencia en documentales, reels, motion graphics y contenido corporativo." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_CO" />
+
+  <!-- Tipografías editoriales -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,800&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Grano cinematográfico -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav">
+    <a href="#inicio" class="logo">
+      <span class="logo-mark">C</span>
+      <span class="logo-text">CEREKA<span class="dot">.</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="#reel">Reel</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- Menú mobile -->
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav class="mobile-menu-links" aria-label="Navegación móvil">
+      <a href="#reel">Reel</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+
+  <!-- HERO con SHOWREEL integrado -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-grid">
+      <div class="hero-content">
+        <p class="eyebrow">DAVID ROJAS · CEREKA</p>
+        <h1 class="hero-title">
+          Productor<br>
+          <em>audiovisual.</em>
+        </h1>
+        <p class="hero-sub">
+          Creo, ruedo y edito. Documentales, reels y contenido corporativo
+          con cuidado por la imagen, el ritmo y la historia detrás del cuadro.
+        </p>
+        <div class="hero-cta">
+          <a href="#proyectos" class="btn btn-primary">Explorar proyectos</a>
+          <a href="#contacto" class="btn btn-ghost">Contacto</a>
+        </div>
+      </div>
+
+      <div class="hero-reel" id="reel">
+        <div class="reel-label">
+          <span class="rec-dot"></span>
+          <p>DEMOREEL · 2026</p>
+        </div>
+        <div class="reel-frame">
+          <!-- 🎬 REEMPLAZA el ID por el de tu video real de YouTube -->
+          <iframe
+            src="https://www.youtube.com/embed/6f7uZ_ycgwI?autoplay=1&mute=1&loop=1&playlist=6f7uZ_ycgwI&rel=0&modestbranding=1&playsinline=1"
+            title="DemoReel - David Rojas (Cereka)"
+            frameborder="0"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <p class="reel-note">Dirección · Cámara · Edición · Color · Motion</p>
+      </div>
+    </div>
+
+    <div class="scroll-hint" aria-hidden="true">
+      <span></span>
+      <p>SCROLL</p>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="proyectos" id="proyectos">
+    <div class="section-head">
+      <p class="eyebrow">PROYECTOS</p>
+      <h2>Selección de trabajos.</h2>
+    </div>
+
+    <div class="grid">
+      <!-- Proyecto 1 -->
+      <a href="#" class="card" style="--accent:var(--accent);">
+        <div class="card-media">
+          <span class="card-tag">DOCUMENTAL · ARMADA NACIONAL</span>
+        </div>
+        <div class="card-body">
+          <h3>Proyecto ARMADA NACIONAL</h3>
+          <p>Realización, grabación y montaje de contenido documental para la Armada Nacional.</p>
+          <span class="card-link">Ver proyecto →</span>
+        </div>
+      </a>
+
+      <!-- Proyecto 2 -->
+      <a href="#" class="card" data-project="indra" style="--accent:#0a7fb8;">
+        <div class="card-media card-media-indra">
+          <span class="card-tag">CONTENIDO CORPORATIVO · INDRA</span>
+        </div>
+        <div class="card-body">
+          <h3>Comunicaciones Digitales — INDRA</h3>
+          <p>Producción y edición de piezas audiovisuales para plataformas digitales y redes corporativas.</p>
+          <span class="card-link">Ver proyecto →</span>
+        </div>
+      </a>
+
+      <!-- Proyecto 3 -->
+      <a href="#" class="card" style="--accent:#06d6a0;">
+        <div class="card-media">
+          <span class="card-tag">REELS · TIKTOK</span>
+        </div>
+        <div class="card-body">
+          <h3>Formatos verticales</h3>
+          <p>Concepto, rodaje y postproducción de reels y TikToks para marcas y proyectos personales.</p>
+          <span class="card-link">Ver proyecto →</span>
+        </div>
+      </a>
+
+      <!-- Proyecto 4 -->
+      <a href="#" class="card" style="--accent:#118ab2;">
+        <div class="card-media">
+          <span class="card-tag">MOTION GRAPHICS</span>
+        </div>
+        <div class="card-body">
+          <h3>Animación &amp; VFX</h3>
+          <p>Motion graphics y efectos visuales con After Effects para piezas corporativas y narrativas.</p>
+          <span class="card-link">Ver proyecto →</span>
+        </div>
+      </a>
+
+      <!-- Proyecto 5 -->
+      <a href="#" class="card" style="--accent:#f72585;">
+        <div class="card-media">
+          <span class="card-tag">3D · MAYA</span>
+        </div>
+        <div class="card-body">
+          <h3>Modelado y animación 3D</h3>
+          <p>Creación de personajes y escenarios en Autodesk Maya, con texturizado en Substance 3D Painter.</p>
+          <span class="card-link">Ver proyecto →</span>
+        </div>
+      </a>
+
+      <!-- Proyecto 6 -->
+      <a href="#" class="card" style="--accent:#8338ec;">
+        <div class="card-media">
+          <span class="card-tag">CORTOMETRAJE</span>
+        </div>
+        <div class="card-body">
+          <h3>Postproducción de cortos</h3>
+          <p>Cortes, transiciones, sincronización de audio y corrección de color en DaVinci Resolve.</p>
+          <span class="card-link">Ver proyecto →</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section class="sobre-mi" id="sobre-mi">
+    <div class="sobre-grid">
+      <div class="sobre-text">
+        <p class="eyebrow">SOBRE MÍ</p>
+        <h2>David Rojas<br><em>— Cereka.</em></h2>
+        <p class="lead">
+          Productor audiovisual especializado en la creación, realización
+          y postproducción de contenido de alta calidad.
+        </p>
+        <p>
+          Tengo experiencia técnica en set con cámaras profesionales, microfonía
+          y equipos de grabación. En postproducción manejo edición avanzada,
+          motion graphics, corrección de color y animación 3D. Mi trabajo va
+          desde la idea hasta la entrega final: documentales, formatos verticales
+          (TikToks, Reels) y presentaciones corporativas.
+        </p>
+        <p>
+          He desarrollado proyectos para entidades como la <span class="highlight-armada">ARMADA NACIONAL</span>
+          y completé mi práctica profesional en <span class="highlight-indra">INDRA</span>, liderando
+          piezas audiovisuales para sus comunicaciones digitales.
+        </p>
+        <p>
+          Realicé un intercambio académico de <strong>6 meses en Nueva York</strong> con
+          la escuela <strong>EF (Education First)</strong>, una experiencia que amplió mi
+          visión narrativa y mi inglés a un nivel B2.
+        </p>
+
+        <h3 class="skills-title">Softwares</h3>
+        <ul class="softwares">
+
+          <li class="sw" style="--sw-color:#9999ff;">
+            <span class="sw-icon" aria-hidden="true">
+              <svg viewBox="0 0 240 234" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0" y="0" width="240" height="234" rx="42" fill="#00005b"/>
+                <text x="50%" y="60%" text-anchor="middle" fill="#9999ff" font-family="Arial Black, sans-serif" font-weight="900" font-size="120" dominant-baseline="middle">Pr</text>
+              </svg>
+            </span>
+            <span class="sw-name">Adobe Premiere Pro</span>
+            <span class="sw-level" data-level="5" aria-label="Nivel 5 de 5">
+              <i></i><i></i><i></i><i></i><i></i>
+            </span>
+          </li>
+
+          <li class="sw" style="--sw-color:#d291ff;">
+            <span class="sw-icon" aria-hidden="true">
+              <svg viewBox="0 0 240 234" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0" y="0" width="240" height="234" rx="42" fill="#00005b"/>
+                <text x="50%" y="60%" text-anchor="middle" fill="#d291ff" font-family="Arial Black, sans-serif" font-weight="900" font-size="120" dominant-baseline="middle">Ae</text>
+              </svg>
+            </span>
+            <span class="sw-name">Adobe After Effects</span>
+            <span class="sw-level" data-level="4" aria-label="Nivel 4 de 5">
+              <i></i><i></i><i></i><i></i><i></i>
+            </span>
+          </li>
+
+          <li class="sw" style="--sw-color:#0696d7;">
+            <span class="sw-icon" aria-hidden="true">
+              <svg viewBox="0 0 240 234" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="mayaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#3ec5d5"/>
+                    <stop offset="100%" stop-color="#0d7a8c"/>
+                  </linearGradient>
+                </defs>
+                <rect x="0" y="0" width="240" height="234" rx="42" fill="#ffffff"/>
+                <text x="50%" y="60%" text-anchor="middle" fill="url(#mayaGrad)" font-family="Arial Black, sans-serif" font-weight="900" font-size="150" dominant-baseline="middle">M</text>
+              </svg>
+            </span>
+            <span class="sw-name">Autodesk Maya</span>
+            <span class="sw-level" data-level="4" aria-label="Nivel 4 de 5">
+              <i></i><i></i><i></i><i></i><i></i>
+            </span>
+          </li>
+
+          <li class="sw" style="--sw-color:#ff8c42;">
+            <span class="sw-icon" aria-hidden="true">
+              <svg viewBox="0 0 240 234" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0" y="0" width="240" height="234" rx="42" fill="#330000"/>
+                <text x="50%" y="60%" text-anchor="middle" fill="#ff9a00" font-family="Arial Black, sans-serif" font-weight="900" font-size="120" dominant-baseline="middle">Ai</text>
+              </svg>
+            </span>
+            <span class="sw-name">Adobe Illustrator</span>
+            <span class="sw-level" data-level="2" aria-label="Nivel 2 de 5">
+              <i></i><i></i><i></i><i></i><i></i>
+            </span>
+          </li>
+
+          <li class="sw" style="--sw-color:#31a8ff;">
+            <span class="sw-icon" aria-hidden="true">
+              <svg viewBox="0 0 240 234" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0" y="0" width="240" height="234" rx="42" fill="#001e36"/>
+                <text x="50%" y="60%" text-anchor="middle" fill="#31a8ff" font-family="Arial Black, sans-serif" font-weight="900" font-size="120" dominant-baseline="middle">Ps</text>
+              </svg>
+            </span>
+            <span class="sw-name">Adobe Photoshop</span>
+            <span class="sw-level" data-level="2" aria-label="Nivel 2 de 5">
+              <i></i><i></i><i></i><i></i><i></i>
+            </span>
+          </li>
+
+          <li class="sw" style="--sw-color:#ff5252;">
+            <span class="sw-icon" aria-hidden="true">
+              <svg viewBox="0 0 240 234" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <radialGradient id="dvBlue" cx="50%" cy="40%" r="60%">
+                    <stop offset="0%" stop-color="#7dd3fc"/>
+                    <stop offset="100%" stop-color="#1e6fb0"/>
+                  </radialGradient>
+                  <radialGradient id="dvYellow" cx="50%" cy="40%" r="60%">
+                    <stop offset="0%" stop-color="#fde047"/>
+                    <stop offset="100%" stop-color="#a16207"/>
+                  </radialGradient>
+                  <radialGradient id="dvRed" cx="50%" cy="40%" r="60%">
+                    <stop offset="0%" stop-color="#fca5a5"/>
+                    <stop offset="100%" stop-color="#b91c1c"/>
+                  </radialGradient>
+                </defs>
+                <rect x="0" y="0" width="240" height="234" rx="42" fill="#1e2a3a"/>
+                <!-- Pétalo azul arriba -->
+                <path d="M120 60 C100 60 88 78 88 96 C88 116 102 130 120 130 C138 130 152 116 152 96 C152 78 140 60 120 60 Z" fill="url(#dvBlue)"/>
+                <!-- Pétalo amarillo abajo izquierda -->
+                <path d="M70 130 C50 130 38 148 38 166 C38 186 52 200 70 200 C88 200 102 186 102 166 C102 148 90 130 70 130 Z" fill="url(#dvYellow)"/>
+                <!-- Pétalo rojo abajo derecha -->
+                <path d="M170 130 C150 130 138 148 138 166 C138 186 152 200 170 200 C188 200 202 186 202 166 C202 148 190 130 170 130 Z" fill="url(#dvRed)"/>
+              </svg>
+            </span>
+            <span class="sw-name">DaVinci Resolve</span>
+            <span class="sw-level" data-level="4" aria-label="Nivel 4 de 5">
+              <i></i><i></i><i></i><i></i><i></i>
+            </span>
+          </li>
+
+          <li class="sw" style="--sw-color:#9999ff;">
+            <span class="sw-icon" aria-hidden="true">
+              <svg viewBox="0 0 240 234" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0" y="0" width="240" height="234" rx="42" fill="#00005b"/>
+                <text x="50%" y="60%" text-anchor="middle" fill="#9999ff" font-family="Arial Black, sans-serif" font-weight="900" font-size="120" dominant-baseline="middle">Au</text>
+              </svg>
+            </span>
+            <span class="sw-name">Adobe Audition</span>
+            <span class="sw-level" data-level="3" aria-label="Nivel 3 de 5">
+              <i></i><i></i><i></i><i></i><i></i>
+            </span>
+          </li>
+
+          <li class="sw" style="--sw-color:#7fff4f;">
+            <span class="sw-icon" aria-hidden="true">
+              <svg viewBox="0 0 240 234" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0" y="0" width="240" height="234" rx="42" fill="#1a3300"/>
+                <text x="50%" y="60%" text-anchor="middle" fill="#7fff4f" font-family="Arial Black, sans-serif" font-weight="900" font-size="120" dominant-baseline="middle">Pt</text>
+              </svg>
+            </span>
+            <span class="sw-name">Substance 3D Painter</span>
+            <span class="sw-level" data-level="2" aria-label="Nivel 2 de 5">
+              <i></i><i></i><i></i><i></i><i></i>
+            </span>
+          </li>
+
+        </ul>
+
+        <div class="meta-info">
+          <div>
+            <p class="meta-label">Idiomas</p>
+            <p class="meta-value">Español (Nativo) · Inglés (B2)</p>
+          </div>
+          <div>
+            <p class="meta-label">Base</p>
+            <p class="meta-value">Bogotá, Colombia</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="sobre-aside">
+        <div class="frame">
+          <p class="frame-label">DISPONIBLE PARA PROYECTOS</p>
+          <p class="frame-status">
+            <span class="status-dot"></span>
+            Freelance · 2026
+          </p>
+          <ul class="frame-services">
+            <li>Grabación de contenido</li>
+            <li>Preproducción, producción y postproducción</li>
+            <li>Piezas audiovisuales para marcas</li>
+          </ul>
+          <a href="#contacto" class="frame-cta">Escríbeme →</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contacto" id="contacto">
+    <div class="contacto-inner">
+      <p class="eyebrow">CONTACTO</p>
+      <h2>Hablemos de tu próximo proyecto.</h2>
+      <p class="contacto-sub">
+        Documentales, reels, motion graphics o postproducción.
+        Escríbeme y armemos algo bueno.
+      </p>
+
+      <div class="contacto-links">
+        <a href="mailto:davidrojas11@outlook.com" class="contacto-link">
+          <span class="contacto-label">Email</span>
+          <span class="contacto-value">davidrojas11@outlook.com</span>
+        </a>
+        <a href="tel:+573118593694" class="contacto-link">
+          <span class="contacto-label">Teléfono</span>
+          <span class="contacto-value">+57 311 859 3694</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGRADECIMIENTO -->
+  <section class="thanks" aria-label="Agradecimiento">
+    <div class="thanks-inner">
+      <p class="thanks-eyebrow">— FIN DEL RECORRIDO —</p>
+      <h2 class="thanks-title">
+        Gracias<br>
+        <em>por ver.</em>
+      </h2>
+      <p class="thanks-text">
+        Cada cuadro, corte y transición tiene una historia detrás.
+        Gracias por tomarte el tiempo de mirar la mía.
+      </p>
+      <div class="thanks-divider" aria-hidden="true">
+        <span></span>
+        <p>CEREKA · 2026</p>
+        <span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-name">CEREKA<span class="dot">.</span></p>
+      <p class="footer-copy">© 2026 · David Rojas Ramirez</p>
+    </div>
+  </footer>
+
+  <!-- ========== MODAL DE PROYECTO ========== -->
+  <div class="project-modal" id="modal-indra" role="dialog" aria-modal="true" aria-labelledby="modal-indra-title" hidden>
+    <div class="modal-backdrop" data-close></div>
+
+    <div class="modal-content">
+      <button class="modal-close" data-close aria-label="Cerrar">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M6 6 L18 18 M18 6 L6 18" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <header class="modal-header">
+        <p class="modal-eyebrow">CONTENIDO CORPORATIVO</p>
+        <h2 id="modal-indra-title">
+          Comunicaciones Digitales<br>
+          <em>— <span class="modal-indra-brand">INDRA</span></em>
+        </h2>
+        <p class="modal-desc">
+          Producción y edición de piezas audiovisuales para las plataformas
+          digitales y redes corporativas de INDRA, durante mi práctica profesional
+          en comunicaciones digitales.
+        </p>
+        <div class="modal-meta">
+          <span><strong>Cliente</strong> INDRA</span>
+          <span><strong>Año</strong> 2025</span>
+          <span><strong>Rol</strong> Producción · Edición · Postproducción</span>
+        </div>
+      </header>
+
+      <div class="modal-videos">
+
+        <!-- Video 1: Horizontal · Pieza corporativa -->
+        <article class="modal-video horizontal">
+          <p class="video-label">PIEZA CORPORATIVA</p>
+          <div class="video-frame">
+            <iframe
+              data-src="https://player.vimeo.com/video/1189240754?title=0&byline=0&portrait=0&dnt=1&quality_selector=1"
+              title="Video Corporativo INDRA"
+              frameborder="0"
+              loading="lazy"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </article>
+
+        <!-- Video 2: Horizontal · Cortometraje -->
+        <article class="modal-video horizontal">
+          <p class="video-label">CORTOMETRAJE CORPORATIVO</p>
+          <div class="video-frame">
+            <iframe
+              data-src="https://player.vimeo.com/video/1189241184?title=0&byline=0&portrait=0&dnt=1&quality_selector=1"
+              title="Cortometraje Corporativo INDRA"
+              frameborder="0"
+              loading="lazy"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </article>
+
+        <!-- Videos verticales (en pareja) -->
+        <div class="vertical-pair">
+
+          <article class="modal-video vertical">
+            <p class="video-label">FORMATO VERTICAL · 01</p>
+            <div class="video-frame">
+              <iframe
+                data-src="https://player.vimeo.com/video/1189239237?title=0&byline=0&portrait=0&dnt=1&quality_selector=1"
+                title="Video Vertical INDRA 01"
+                frameborder="0"
+                loading="lazy"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </article>
+
+          <article class="modal-video vertical">
+            <p class="video-label">FORMATO VERTICAL · 02</p>
+            <div class="video-frame">
+              <iframe
+                data-src="https://player.vimeo.com/video/1189239236?title=0&byline=0&portrait=0&dnt=1&quality_selector=1"
+                title="Video Vertical INDRA 02"
+                frameborder="0"
+                loading="lazy"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+
+      <footer class="modal-footer">
+        <p class="modal-footer-text">¿Te interesa un proyecto similar?</p>
+        <a href="#contacto" class="btn btn-primary" data-close>Hablemos →</a>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // ===== Reveal en scroll =====
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.reveal, .card, .section-head, .sobre-text, .sobre-aside, .contacto-inner')
+      .forEach(el => { el.classList.add('reveal'); io.observe(el); });
+
+    // ===== Modal de proyectos (con LAZY LOADING de videos) =====
+    const openModal = (modalId) => {
+      const modal = document.getElementById(modalId);
+      if (!modal) return;
+      modal.hidden = false;
+      requestAnimationFrame(() => modal.classList.add('is-open'));
+      document.body.style.overflow = 'hidden';
+
+      // 🚀 Cargar los videos SOLO cuando se abre el modal
+      modal.querySelectorAll('iframe[data-src]').forEach(iframe => {
+        if (!iframe.src) {
+          iframe.src = iframe.dataset.src;
+        }
+      });
+    };
+
+    const closeModal = (modal) => {
+      modal.classList.remove('is-open');
+      document.body.style.overflow = '';
+      // 🛑 Descargar videos al cerrar (libera RAM y detiene reproducción)
+      modal.querySelectorAll('iframe[data-src]').forEach(iframe => {
+        iframe.src = '';
+      });
+      setTimeout(() => { modal.hidden = true; }, 350);
+    };
+
+    // Abrir modales desde cards con data-project
+    document.querySelectorAll('.card[data-project]').forEach(card => {
+      card.addEventListener('click', (e) => {
+        e.preventDefault();
+        const project = card.dataset.project;
+        openModal(`modal-${project}`);
+      });
+    });
+
+    // Cerrar al hacer clic en X o backdrop o botón con data-close
+    document.querySelectorAll('.project-modal').forEach(modal => {
+      modal.addEventListener('click', (e) => {
+        if (e.target.closest('[data-close]')) {
+          closeModal(modal);
+        }
+      });
+    });
+
+    // ===== Cerrar con tecla Escape =====
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.project-modal.is-open').forEach(closeModal);
+        // También cierra el menú móvil
+        closeMobileMenu();
+      }
+    });
+
+    // ===== Menú móvil =====
+    const navToggle = document.querySelector('.nav-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    const openMobileMenu = () => {
+      mobileMenu.hidden = false;
+      requestAnimationFrame(() => mobileMenu.classList.add('is-open'));
+      navToggle.classList.add('is-active');
+      navToggle.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+    };
+
+    const closeMobileMenu = () => {
+      if (!mobileMenu.classList.contains('is-open')) return;
+      mobileMenu.classList.remove('is-open');
+      navToggle.classList.remove('is-active');
+      navToggle.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      setTimeout(() => { mobileMenu.hidden = true; }, 350);
+    };
+
+    if (navToggle) {
+      navToggle.addEventListener('click', () => {
+        if (mobileMenu.classList.contains('is-open')) {
+          closeMobileMenu();
+        } else {
+          openMobileMenu();
+        }
+      });
+    }
+
+    // Cerrar el menú al hacer clic en un link
+    mobileMenu?.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', closeMobileMenu);
+    });
+  </script>
+</body>
+</html>
